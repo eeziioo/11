@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header-content {
+    height: 100px;
+    align-items: center;
+
+    padding: 0 168px;
+}
+
+.head-btn button {
+    width: 146px;
+    height: 40px;
+    border: 1.5px solid #2C2830;
+    background: #FFF;
+}
+
+.head-right {
+    height: 100px;
+    align-items: center;
+}
+
+
+#birinchi {
+    background: #2D2641;
+}
+
+.bir-title {
+    color: #FFF;
+    font-family: DM Serif Display;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    /* 88.889% */
+    letter-spacing: -1px;
+}
+
+.bir-left {
+    max-width: 540px;
+
+    padding: 170px 0 130px;
+}
+
+.bir-text {
+    color: #FFF;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+
+    padding: 25px 0;
+}
+
+.bir-btn button {
+    width: 146px;
+    height: 40px;
+    border: 1.5px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
+
+@media screen and (max-width:576px) {
+    
+    .bir-img {
+        max-width: 300px;
+        top: 0px;
+    }
+
+    #birinchi {
+        height: 965px;
+    }
+
+}
+
+
+.bir-img {
+    max-width: 500px;
+    width: 100%;
+
+    position: absolute;
+    top: 100px;
+}
+
+.bir-right {
+    position: relative;
+
+    max-width: 500px;
+    width: 100%;
+}
+
+.ikki-text {
+    width: 717px;
+    height: 64px;
+    color: #2C2830;
+    font-family: DM Serif Display;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    /* 88.889% */
+    letter-spacing: -1px;
+    display: flex;
+}
+
+.our {
+    max-width: 350px;
+    color: #837D88;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.pro {
+    max-width: 350px;
+    color: #2C2830;
+    font-family: DM Serif Display;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.389px;
+    padding-top: 32px;
+}
+
+.uchinchi-content {
+    width: 1110px;
+    height: 250px;
+    padding-top: 69px;
+}
+
+.uch-text {
+    color: #FFF;
+    font-family: DM Serif Display;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    /* 100% */
+    letter-spacing: -0.778px;
+}
+
+.uch-btn button{
+    color: #FFF;
+    text-align: center;
+    font-family: Karla;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    border: 1.5px solid #FFF;
+    width: 160px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
